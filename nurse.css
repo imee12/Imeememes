@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  display: block;
+  width: 100%;
+  font-family: 'Arvo', serif;
+  font-size: 75px;
+  padding: 22px;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: 'Arvo', serif;
+  padding: 25px;
+}
+
+p {
+  font-size: 25px;
+  margin: 15px;
+  padding: 22px;
+}
+
+section {
+  width: 102v0px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+
+img {
+  width: 180px;
+  padding: 20px;
+  position: absolute;
+}
+
+
+nav a {
+  font-size: 44px;
+  display: block;
+  color: red;
+  padding: 15px;
+  text-decoration: none;
+}
+
+
+nav ul {
+  margin: 0;
+  list-style type: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+nav li {
+  display: inline-block;
+}

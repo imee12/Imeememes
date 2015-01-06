@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  display: block;
+  width: 100%;
+  font-family: 'Arvo', serif;
+  font-size: 75px;
+  padding: 22px;
+
+}
+
+h1 {
+  font-family: 'Arvo', serif;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav a {
+  font-size: 44px;
+  display: block;
+  color: red;
+  padding: 15px;
+  text-decoration: none;
+}
+
+
+nav ul {
+  margin: 0;
+  list-style type: none;
+  padding: 0;
+  text decoration: none;
+}
+
+
+nav li {
+  display: inline-block;
+}
+
+section, aside {
+    display: inline-block;
+    vertical-align: top;
+
+  }
+
+h2 {
+  font-family: 'Arvo', serif;
+  font-size: 44px;
+}
+
+header, footer {
+  display:block;
+  width:100%;
+  background-color: blue;
+  text-decoration: none; {
+
+}
+
+footer {
+  font-family: 'Arvo', serif;
+  font-size: 45px;
+}
