@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Arvo', serif;
 }
 
 
@@ -24,21 +25,28 @@ p {
   padding: 22px;
 }
 
-section {
-  width: 102v0px;
-  padding: 10px;
+section, aside {
+  width: 300px;
+  padding: 100px;
   display: inline-block;
   vertical-align: top;
 
 }
 
 
-img {
-  width: 180px;
+section img {
+  width: 300px;
   padding: 20px;
-  position: absolute;
+  display: block;
+  horizontal-align: top;
 }
 
+aside img {
+  width: 300px;
+  padding: 20px;
+  display: block;
+  horizontal-align: top;
+}
 
 nav a {
   font-size: 44px;
@@ -53,10 +61,14 @@ nav ul {
   margin: 0;
   list-style type: none;
   padding: 0;
-  text-decoration: none;
+  text decoration: none;
 }
 
 
 nav li {
   display: inline-block;
+}
+
+footer {
+  margin: 25px;
 }
