@@ -3,22 +3,29 @@ body {
   padding: 0;
 }
 
+section img, aside img {
+  width: 280px;
+}
 
 header {
   display: block;
   width: 100%;
-  font-family: 'Arvo', serif;
+  font-family: 'Shadows Into Light', serif;
   font-size: 75px;
   padding: 22px;
 
 }
 
+header img {
+  width: 145px;
+  height: 145px;
+}
 .boxed {
-  font-family: 'Arvo', serif;
+  font-family: 'Shadows Into Light', serif;
   width: 100%;
   padding: 10px;
   margin: 10px;
-  border: 1px solid green;
+  border: 1px solid #C6E2FF;
   font-size: 24px;
 }
 
@@ -26,20 +33,22 @@ header {
 
 
 nav a {
-  font-size: 34px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', serif;
   display: block;
-  color: green;
+  color: black;
   padding: 15px;
   text-decoration: none;
-  border: 1px solid green;
+  margin: 1px 1px 1px 180px;
+
 
 }
 
 
 nav ul {
-  margin: 20;
+  margin: 20px;
   list-style type: none;
-  padding: 20;
+  padding: 20px;
   text decoration: none;
 }
 
@@ -56,26 +65,89 @@ section, aside {
     display: inline-block;
     vertical-align: top;
     padding: 20px;
-    width: 500px;
-    margin: relative;
+
+
+}
+
+
+section {
+  width: 300px;
+  margin: 1px 1px 1px 180px;
+
+}
+
+aside {
+  width: 300px;
+  margin: 1px 1px 1px 180px;
+
 
   }
 
 h2 {
-  font-family: 'Arvo', serif;
+  font-family: 'Shadows Into Light', serif;
   font-size: 44px;
 }
 
 header, footer {
   display:block;
   width:100%;
-  background-color: blue;
+  background-color: #C6E2FF;
   text-decoration: none;
 
 }
 
 footer {
-  font-family: 'Arvo', serif;
-  font-size: 25px;
+  font-family: "Shadows Into Light", serif;
+  font-size: 15px;
   padding: 12px;
+}
+
+
+@media screen and (max-width: 321px) {
+
+  header {
+    font-size: 40px;
+  }
+
+  header img {
+    width:100px;
+    height: 100px;
+  }
+
+
+.boxed img {
+  width: 100%;
+}
+
+section img, aside img {
+  width: 100%;
+}
+section {
+  width: 90%;
+  margin: 1px 50px 1px 1px;
+  text-align: center;
+}
+aside {
+  width: 90%;
+  margin: 1px 50px 1px 1px;
+  text-align: center;
+}
+
+nav li{
+  display: inline-block;
+  width: 75px;
+
+}
+
+nav u {
+  display: inline-block;
+
+}
+
+nav a {
+  display: inline-block;
+  margin: 1px 100px 1px 1px;
+  font-size: 15px;
+}
+
 }
